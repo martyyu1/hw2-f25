@@ -26,13 +26,13 @@ img {
     width: 250px;
     display: block;
     margin: 0 auto;
-    border: #fff 10px dashed;
+    border: 10px dashed #fff;
 }
 
 div {
     min-height: 125px;
     padding: 20px;
-    border: #fff 3px solid;
+    border: 3px solid #fff;
 }
 
 .introduction {
@@ -45,15 +45,14 @@ div {
     background-color: #f00;
     text-align: right;
     margin-left: 50px;
-    border-left: 5px solid #fff;
-    border-bottom: 2px solid #fff;
+    border-width: 0 0 2px 5px;
 }
 
 .blue {
     background-color: #00f;
     text-align: left;
     margin-right: 50px;
-    border-right: 2px solid #fff;
+    border-width: 2px 5px 0 0;
 }
 
 .blue h2 {
@@ -68,8 +67,7 @@ div {
     background-color: #ff0;
     text-align: right;
     margin-left: 50px;
-    border-left: 5px solid #fff;
-    border-bottom: 2px solid #fff;
+    border-width: 0 0 2px 5px;
 }
 
 .yellow p {
@@ -80,8 +78,7 @@ div {
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px solid #fff;
-    border-top: 2px solid #fff;
+    border-width: 2px 5px 0 0;
 }
 
 footer {
